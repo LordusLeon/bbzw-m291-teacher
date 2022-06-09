@@ -1,44 +1,373 @@
-html,
-body {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+
+*{  font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
+h1{
+    font-size: 6rem;
+    font-family: 'Passion One', cursive;
 }
 
-.header {
-  height: 75px;
-  padding: 12px;
-  display: grid;
-  grid-template-columns: 100px 1fr 100px;
+h2{
+    font-size: 4rem;
+    font-family: 'Passion One', cursive;
+    font-weight: lighter;
 }
 
-.content {
-  flex: auto;
-  background-color: #ccc;
-  margin: auto;
-  max-width: 650px;
+header{
+    background-image: url(../Bilder/titelbild.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    height: 1000px;
 }
 
-.footer {
-  height: 25px;
+header h1 {
+    padding-top: 300px;
 }
 
- 
-.formPanel {
-  background-color: white;
-  display: grid;
-  grid-row-gap: 8px;
-  padding: 12px;
-  width: 300px;
-  margin:auto;
+header p{
+    font-size: 2rem;
+    font-family: 'Passion One', cursive;
 }
 
-.title {
-  text-align: center;
+.navigation-liste{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-liste li{
+    list-style: none;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.navigation-liste a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    font-family: 'Passion One', cursive;
+}
+
+.navigation-liste a:hover{
+    color: rgb(255, 00, 00);
+}
+
+#hier{
+    color: rgb(255, 00, 00)
+}
+
+.navigation-abstand{
+    padding: 0 2rem 0 2rem;
+}
+
+.bild-bestseller{
+    width: 200px;
+    height: 430px;
+    padding: 50px 40px 0 40px;
+}
+
+.produktion{
+    margin: 50px 25% 50% 25%;
+}
+
+.produktion h2{
+    text-align: center;
+    margin-top: 5rem;
+    color: rgb(255, 00, 00)
+}
+
+.produktion p{
+    text-align: justify;
+}
+
+
+.footerinhalt{
+    color: white;
+    background-color: rgb(39, 34, 34);
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -800px;
+    padding-right: 0;
+}
+
+.footer-adresse{
+    padding: 2.4rem 0 0 4rem;
+}
+
+.footerinhalt li{
+    list-style: none;
+}
+
+/*Responsives Design mit media queries*/
+
+@media screen and (max-width: 1899px){
+
+    header{
+        background-image: url(../Bilder/titelbild.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        height: 800px;
+    }
+
+    .produktion{
+        margin: 50px 20% 50% 20%;
+    }
+
+    header h1 {
+        padding-top: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1680px){
+
+    .footerinhalt{
+        color: white;
+        background-color: rgb(39, 34, 34);
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -600px;
+        padding-right: 0;
+    }
+
+    .produktion{
+        margin: 50px 15% 50% 15%;
+    }
+}
+
+@media screen and (max-width: 1358px){
+    .footerinhalt{
+        color: white;
+        background-color: rgb(39, 34, 34);
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -400px;
+        padding-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 905px){
+
+    .footerinhalt{
+        color: white;
+        background-color: rgb(39, 34, 34);
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -300px;
+        padding-right: 0;
+    }
+
+    .bild-bestseller{
+        width: 200px;
+        height: 430px;
+        padding: 50px 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 760px){
+
+    .footerinhalt{
+        color: white;
+        background-color: rgb(39, 34, 34);
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -200px;
+        padding-right: 0;
+    }
+
+    .bild-bestseller{
+        width: 200px;
+        height: 430px;
+        padding: 50px 40px 0 40px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-family: 'Passion One', cursive;
+    }
+    
+    header p{
+        font-size: 3rem;
+        font-family: 'Passion One', cursive;
+    }
+
+    .produktion{
+        margin: 50px 10% 50% 10%;
+    }
+
+    h2{
+        font-size: 3rem;
+        font-family: 'Passion One', cursive;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width: 539px){
+
+    .bild-bestseller{
+        width: 200px;
+        height: 430px;
+        padding: 50px 30px 0 30px;
+    }
+
+}
+
+@media screen and (max-width: 440px){
+    .produktion p{
+        text-align: justify;
+        font-size: smaller;
+    }
+
+    .bild-bestseller{
+        width: 200px;
+        height: 430px;
+        padding: 50px 10px 0 10px;
+    }
+
+    .footerinhalt{
+        color: white;
+        background-color: rgb(39, 34, 34);
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -100px;
+        padding-right: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        font-family: 'Passion One', cursive;
+    }
+    
+    header p{
+        font-size: 2.5rem;
+        font-family: 'Passion One', cursive;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-family: 'Passion One', cursive;
+        font-weight: lighter;
+    }
+
+    header{
+        background-image: url(../Bilder/titelbild.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        height: 823px;
+    }
+
+    header h1 {
+        padding-top: 230px;
+    }
+
+    
+}
+
+@media screen and (max-width: 380px){
+    .footer-adresse{
+        padding: 2.4rem 0 0 2rem;
+    }
+
+    .bild-bestseller{
+        width: 200px;
+        height: 430px;
+        padding: 50px 5px 0 5px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-family: 'Passion One', cursive;
+    }
+    
+    header p{
+        font-size: 2rem;
+        font-family: 'Passion One', cursive;
+    }
+
+    h2{
+        font-size: 2rem;
+        font-family: 'Passion One', cursive;
+        font-weight: lighter;
+    }
+
+    header{
+        background-image: url(../Bilder/titelbild.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        height: 667px;
+    }
+
+    header h1 {
+        padding-top: 190px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    header{
+        background-image: url(../Bilder/titelbild.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        height: 568px;
+    }
+
+    header h1 {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 319px){
+
+    .bild-bestseller{
+        width: 200px;
+        height: 430px;
+        padding: 20px 10px 0 10px;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+        font-family: 'Passion One', cursive;
+    }
+    
+    header p{
+        font-size: 1.7rem;
+        font-family: 'Passion One', cursive;
+    }
+
+    h2{
+        font-size: 1.7rem;
+        font-family: 'Passion One', cursive;
+        font-weight: lighter;
+    }
+    
+    .navigation-liste li{
+        list-style: none;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    header{
+        background-image: url(../Bilder/titelbild2.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        height: 653px;
+    }
+
+    header h1 {
+        padding-top: 200px;
+    }
 }
