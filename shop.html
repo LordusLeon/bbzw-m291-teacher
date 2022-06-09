@@ -1,24 +1,105 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="de">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online-Shop Produktseite</title>
+     <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+    <title>Formular</title>
+    <link rel="stylesheet" href="CSS/formular.css">
+</head>
+<body>
 
-  </head>
+<header>
+  <nav class="navigation">
+      <ul class="navigation-liste">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" id="hier">Shop</a></li>
+      </ul>
+  </nav>
+  <p>Bestellformular</p>
+  </header>
 
-  <body>
-    <pre> 
-       Eine Beispielseite - Produktseite (Arbeitsauftrag M291)
+
+<article class="formular"> 
+  
+<!--Formulars-->
+      <section class="bestellformular-inhalt"> 
         
-    </pre>         
+        <h2>JETZT BESTELLEN</h2>
+      
+        <p class="bestellformular-einleitungstext">Mit diesem Formular können Sie Ihre Kamera bestellen.</p><br>
 
+        <form class="bestellformular" action="speichern.php" method="post">
 
-  </body>
+          <label for="anrede">Anrede:</label>
+          <select name="anrede" id="anrede">
+            <option value="herr">Herr</option>
+            <option value="frau">Frau</option>
+            <option value="andere">Andere</option>
+          </select><br><br>
+         
+        <div class="eingabefelder">
+          <label for="name">Name </label><br>
+          <input type="text" id="name" name="name" required><br>
 
+          <label for="vorname">Vorname </label><br>
+          <input type="text" id="vorname" name="vorname" required><br>
+
+          <label for="adresse">Adresse </label><br>
+          <input type="text" id="adresse" name="adresse" required><br>
+
+          <label for="postleitzahlundort">PLZ/Ort</label><br>
+          <input type="text" id="postleitzahlundort" name="postleitzahlundort" required><br>
+
+          <label for="mail">E-Mail </label><br>
+          <input type="email" id="mail" name="mail" required><br>
+
+          <label for="telefon">Telefon</label><br>
+          <input type="tel" id="telefon" name="telefon" ><br><br>
+        </div>
+          
+          <label for="anzahl">Anzahl</label>
+          <select name="anzahl" id="anzahl"> 
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select><br><br>
+    
+
+          <label for="nachricht">Bemerkungen</label><br>
+          <textarea id="textarea" name="nachricht" cols="20" rows="5"></textarea><br><br>
+
+        <div class="loeschbutton">
+          <button type="reset">Zurücksetzen</button>
+        </div>
+
+        <div class="sendebutton">
+          <button type="submit">Senden</button>
+        </div>
+        
+        </form>
+
+    </section>
+</article>
+      
+    <footer class="footerinhalt">
+            <ul class="footer-adresse">
+                <li>M291</li>
+                <li>Leon Affolter</li>
+                <li>Kai Yu</li></br>
+                <li>+41 79 133 72 55</li>
+                <li class="email-footer">leon_affolter@sluz.ch</li>
+            </ul>
+
+    </footer>
+</body>
 </html>
-
-
- 
