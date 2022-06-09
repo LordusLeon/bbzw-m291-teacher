@@ -17,7 +17,7 @@ h2{
 }
 
 header{
-    background-image: url(bilder/titelbild.jpg);
+    background-image: url(../bilder/titelbild.jpg);
     color: white;
     text-align: center;
     background-size: cover;
@@ -107,7 +107,7 @@ header p{
 @media screen and (max-width: 1899px){
 
     header{
-        background-image: url(bilder/titelbild.jpg);
+        background-image: url(../bilder/titelbild.jpg);
         color: white;
         text-align: center;
         background-size: cover;
@@ -261,7 +261,7 @@ header p{
     }
 
     header{
-        background-image: url(bilder/titelbild.jpg);
+        background-image: url(../bilder/titelbild.jpg);
         color: white;
         text-align: center;
         background-size: cover;
@@ -303,7 +303,7 @@ header p{
     }
 
     header{
-        background-image: url(bilder/titelbild.jpg);
+        background-image: url(../bilder/titelbild.jpg);
         color: white;
         text-align: center;
         background-size: cover;
@@ -317,7 +317,7 @@ header p{
 
 @media screen and (max-width: 320px){
     header{
-        background-image: url(bilder/titelbild.jpg);
+        background-image: url(../bilder/titelbild.jpg);
         color: white;
         text-align: center;
         background-size: cover;
@@ -360,7 +360,7 @@ header p{
     }
 
     header{
-        background-image: url(bilder/titelbild2.jpg);
+        background-image: url(../bilder/titelbild2.jpg);
         color: white;
         text-align: center;
         background-size: cover;
