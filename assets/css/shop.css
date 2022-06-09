@@ -18,7 +18,7 @@ h2{
 
 
 header{
-    background-image: url(../Bilder/titelbild2.jpg);
+    background-image: url(../bilder/titelbild2.jpg);
     color: white;
     text-align: center;
     background-size: cover;
@@ -85,14 +85,14 @@ label{
 }
 
 input{
-    border: 2px solid rgb(49, 23, 23);
+    border: 2px solid rgb(00, 00, 00);
     border-radius: 5px;
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
 }
 
 textarea{
     margin-top: 0.2rem;
-    border: 2px solid rgb(49, 23, 23);
+    border: 2px solid rgb(00, 00, 00);
     border-radius: 5px;
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
     width: 220px;
@@ -121,13 +121,13 @@ textarea{
 
 
 #anzahl{
-    border:2px solid rgb(49, 23, 23);
+    border:2px solid rgb(00, 00, 00);
     border-radius: 5px;
     margin-left: 10px;
 }
 
 #anrede{
-    border:2px solid rgb(49, 23, 23);
+    border:2px solid rgb(00, 00, 00);
     border-radius: 5px;
     margin-left: 10px;
 }
@@ -139,7 +139,7 @@ textarea{
 
 button{
 color: white;
-background-color:rgb(49, 23, 23);
+background-color:rgb(00, 00, 00);
 border: none;
 padding: 0.5rem 1rem 0.5rem 1rem;
 border-radius: 5px;
@@ -148,12 +148,12 @@ cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(32, 15, 15);
+    background-color: rgb(00, 00, 00);
 }
 
 .footerinhalt{
     color: white;
-    background-color: rgb(39, 34, 34);
+    background-color: rgb(00, 00, 00);
     height: 180px;
     display: flex;
     flex-direction: row;
