@@ -386,14 +386,6 @@ h2{
 }
 
 
-header{
-    background-image: url(../bilder/titelbild2.jpg);
-    color: white;
-    text-align: center;
-    background-size: cover;
-    height: 300px;
-}
-
 header p{
     font-size: 5rem;
     font-family: 'Passion One', cursive;
