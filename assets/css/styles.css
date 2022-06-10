@@ -91,7 +91,7 @@ header p{
     height: 180px;
     display: flex;
     flex-direction: row;
-    margin-top: 800px;
+    margin-top: -120000px;
     padding-right: 0;
 }
 
@@ -133,7 +133,7 @@ header p{
         height: 180px;
         display: flex;
         flex-direction: row;
-        margin-top: 600px;
+        margin-top: -1000px;
         padding-right: 0;
     }
 
@@ -149,7 +149,7 @@ header p{
         height: 180px;
         display: flex;
         flex-direction: row;
-        margin-top: -400px;
+        margin-top: -800px;
         padding-right: 0;
     }
 }
@@ -163,7 +163,7 @@ header p{
         height: 180px;
         display: flex;
         flex-direction: row;
-        margin-top: -300px;
+        margin-top: -700px;
         padding-right: 0;
     }
 
@@ -182,7 +182,7 @@ header p{
         height: 180px;
         display: flex;
         flex-direction: row;
-        margin-top: -200px;
+        margin-top: -600px;
         padding-right: 0;
     }
 
