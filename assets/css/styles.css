@@ -379,20 +379,6 @@ h1{
     font-family: 'Passion One', cursive;
 }
 
-h2{
-    font-size: 4rem;
-    font-family: 'Passion One', cursive;
-    font-weight: lighter;
-}
-
-
-header p{
-    font-size: 5rem;
-    font-family: 'Passion One', cursive;
-    padding-top: 60px;
-}
-
-
 .navigation-liste{
     display: flex;
     justify-content: center;
@@ -460,27 +446,6 @@ textarea{
     height: 150px;
 }
 
-.multiplechoice label{
-    font-weight: normal;
-}
-
-#pink-roses{
-    margin-left: 50px;
-}
-
-#salted-peanuts{
-    margin-left: 22px;
-}
-
-#crispy-chocolate{
-    margin-left: 6px;
-}
-
-#coconut-milk{
-    margin-left: 31px;
-}
-
-
 #anzahl{
     border:2px solid rgb(00, 00, 00);
     border-radius: 5px;
@@ -512,174 +477,39 @@ button:hover{
     background-color: rgb(00, 00, 00);
 }
 
-.footerinhalt{
-    color: white;
-    background-color: rgb(00, 00, 00);
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    padding-right: 0;
-}
-
-.footer-adresse{
-    padding: 2.4rem 0 0 4rem;
-}
-
-.footerinhalt li{
-    list-style: none;
-}
-
-.pfeil-nach-oben{
-    padding-left: 80%;
-}
-
-.pfeil-nach-oben-bild{
-    padding-top: 4.8rem;
-    width: 35px;
-    height: 35px;
-}
-
-@media screen and (max-width: 1680px){
-
-    .pfeil-nach-oben{
-        padding-left: 75%;
-    }
-
-}
-
-@media screen and (max-width: 1358px){
-
-    .pfeil-nach-oben{
-        padding-left: 70%;
-    }
-}
-
-@media screen and (max-width: 1070px){
-
-    .pfeil-nach-oben{
-        padding-left: 65%;
-    }
-}
-
-@media screen and (max-width: 905px){
-
-    .pfeil-nach-oben{
-        padding-left: 60%;
-    }
-
-}
 
 @media screen and (max-width: 760px){
-    
-    .pfeil-nach-oben{
-        padding-left: 55%;
-    }
-
 
     h1 {
         font-size: 4rem;
         font-family: 'Passion One', cursive;
-    }
-    
-    header p{
-        font-size: 3rem;
-        font-family: 'Passion One', cursive;
-    }
-
-    h2{
-        font-size: 3rem;
-        font-family: 'Passion One', cursive;
-        font-weight: lighter;
-    }
-}
-
-@media screen and (max-width: 666px){
-
-    .pfeil-nach-oben{
-        padding-left: 47%;
-    }
-}
-
-@media screen and (max-width: 539px){
-
-    .pfeil-nach-oben{
-        padding-left: 35%;
     }
 
 }
 
 @media screen and (max-width: 440px){
 
-    .pfeil-nach-oben{
-        padding-left: 25%;
-    }
-
-
     h1 {
         font-size: 3.5rem;
         font-family: 'Passion One', cursive;
     }
-    
-    header p{
-        font-size: 2.5rem;
-        font-family: 'Passion One', cursive;
-    }
-
-    h2{
-        font-size: 2.5rem;
-        font-family: 'Passion One', cursive;
-        font-weight: lighter;
-    }
-
-    
 }
 
 @media screen and (max-width: 380px){
-    .footer-adresse{
-        padding: 2.4rem 0 0 2rem;
-    }
 
     h1 {
         font-size: 3rem;
         font-family: 'Passion One', cursive;
     }
-    
-    header p{
-        font-size: 2rem;
-        font-family: 'Passion One', cursive;
-    }
-
-    h2{
-        font-size: 2rem;
-        font-family: 'Passion One', cursive;
-        font-weight: lighter;
-    }
 
 }
 
-@media screen and (max-width: 320px){
-
-    .pfeil-nach-oben{
-        padding-left: 12%;
-    }
-}
 
 @media screen and (max-width: 319px){
 
     h1 {
         font-size: 2.7rem;
         font-family: 'Passion One', cursive;
-    }
-    
-    header p{
-        font-size: 1.7rem;
-        font-family: 'Passion One', cursive;
-    }
-
-    h2{
-        font-size: 1.7rem;
-        font-family: 'Passion One', cursive;
-        font-weight: lighter;
     }
     
     .navigation-liste li{
