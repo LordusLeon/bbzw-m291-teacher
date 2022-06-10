@@ -406,15 +406,6 @@ input{
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
 }
 
-textarea{
-    margin-top: 0.2rem;
-    border: 2px solid rgb(00, 00, 00);
-    border-radius: 5px;
-    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
-    width: 220px;
-    height: 150px;
-}
-
 #anzahl{
     border:2px solid rgb(00, 00, 00);
     border-radius: 5px;
