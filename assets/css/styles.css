@@ -374,17 +374,12 @@ header p{
 }
 
 /* Formular */
-h1{
-    font-size: 6rem;
-    font-family: 'Passion One', cursive;
-}
-
 #hier{
     color: rgb(255, 00, 00);
 }
 
 .formular{
-    margin: 70px 25% 700px 25%;
+    margin: 70px 25% 70px 25%;
 }
 
 .bestellformular-inhalt h2{
@@ -449,41 +444,4 @@ cursor: pointer;
 
 button:hover{
     background-color: rgb(00, 00, 00);
-}
-
-
-@media screen and (max-width: 760px){
-
-    h1 {
-        font-size: 4rem;
-        font-family: 'Passion One', cursive;
-    }
-
-}
-
-@media screen and (max-width: 440px){
-
-    h1 {
-        font-size: 3.5rem;
-        font-family: 'Passion One', cursive;
-    }
-}
-
-@media screen and (max-width: 380px){
-
-    h1 {
-        font-size: 3rem;
-        font-family: 'Passion One', cursive;
-    }
-
-}
-
-
-@media screen and (max-width: 319px){
-
-    h1 {
-        font-size: 2.7rem;
-        font-family: 'Passion One', cursive;
-    }
-
 }
