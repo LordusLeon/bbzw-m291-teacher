@@ -379,32 +379,6 @@ h1{
     font-family: 'Passion One', cursive;
 }
 
-.navigation-liste{
-    display: flex;
-    justify-content: center;
-}
-
-.navigation-liste li{
-    list-style: none;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-}
-
-.navigation-liste a{
-    text-decoration: none;
-    text-align: right;
-    color: white;
-    font-family: 'Passion One', cursive;
-}
-
-.navigation-abstand{
-    padding: 0 2rem 0 2rem;
-}
-
-.navigation-liste a:hover{
-    color: rgb(255, 00, 00);
-}
-
 #hier{
     color: rgb(255, 00, 00);
 }
@@ -510,12 +484,6 @@ button:hover{
     h1 {
         font-size: 2.7rem;
         font-family: 'Passion One', cursive;
-    }
-    
-    .navigation-liste li{
-        list-style: none;
-        margin-top: 2rem;
-        font-size: 1.2rem;
     }
 
 }
