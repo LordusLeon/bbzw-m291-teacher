@@ -1,5 +1,5 @@
-const dino = document.getElementById("dino")
-const rock = document.getElementById("rock")
+const kamera = document.getElementById("kamera")
+const hammer = document.getElementById("hammer")
 const score = document.getElementById("score")
 const highscore = document.getElementById("highscore-value")
 const gameContainer = document.getElementById("game")
@@ -11,8 +11,8 @@ let gameLoopInterval = 0
 
 const startGame = () => {
   gameOver.style.display = "none";
-  background.classList.add("bg-animation")
-  rock.classList.add("rock-animation")
+  hintergrund.classList.add("bg-animation")
+  hammer.classList.add("hammer-animation")
   startScreen.style.display = "none"
   resetScore()
   startGameLoop()
@@ -25,16 +25,16 @@ const resetScore = () => {
 }
 
 const jump = () => {
-  dino.classList.add("jump-animation")
+  kamera.classList.add("jump-animation")
   setTimeout(() => {
-    dino.classList.remove("jump-animation")
+    kamera.classList.remove("jump-animation")
   }, 500)
 }
 
 const dieAnimation = () => {
-  dino.classList.add("dino-dies")
+  kamera.classList.add("kamera-dies")
   return new Promise(resolve => setTimeout(() => {
-    dino.classList.remove("dino-dies")
+    kamera.classList.remove("kamera-dies")
     resolve()
   }, 500));
 
@@ -45,7 +45,7 @@ document.addEventListener('click', (event) => {
     startGame()
   }
   else {
-    if (!dino.classList.contains('jump-animation')) {
+    if (!kamera.classList.contains('jump-animation')) {
       jump()
     }
   }
@@ -60,25 +60,25 @@ const stopGame = async () => {
     highscore.innerText = scoreNumber
     gameOver.style.display = "block";
   }
-  background.classList.remove("bg-animation")
-  rock.classList.remove("rock-animation")
+  hintergrund.classList.remove("bg-animation")
+  hammer.classList.remove("hammer-animation")
   startScreen.style.display = "block"
   gameLoopInterval = clearInterval(gameLoopInterval)
 }
 
 const startGameLoop = () => {
   gameLoopInterval = window.setInterval(() => {
-    const dinoTop = parseInt(window.getComputedStyle(dino)
+    const dinoTop = parseInt(window.getComputedStyle(kamera)
       .getPropertyValue('top'))
-    const rockLeft = parseInt(window.getComputedStyle(rock)
+    const rockLeft = parseInt(window.getComputedStyle(hammer)
       .getPropertyValue('left'))
 
     score.innerText = Number(score.innerText) + 1
 
     if (rockLeft < 0) {
-      rock.style.display = 'none'
+      hammer.style.display = 'none'
     } else {
-      rock.style.display = ''
+      hammer.style.display = ''
     }
 
     if (rockLeft < 50 && rockLeft > 0 && dinoTop > 150) {
