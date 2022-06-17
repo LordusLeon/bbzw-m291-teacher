@@ -353,7 +353,7 @@ button:hover{
     width: 75px;
     top: 225px;
     position: relative;
-    background-image: url("https://github.com/LordusLeon/bbzw-m291-teacher/blob/main/assets/bilder/kamera.png");
+    background-image: url("https://github.com/LordusLeon/bbzw-m291-teacher/blob/main/assets/bilder/kamera.png?raw=true");
     background-size: cover;
   }
   
@@ -447,7 +447,7 @@ button:hover{
   width: 75px;
   top: 225px;
   position: relative;
-  background-image: url("https://github.com/LordusLeon/bbzw-m291-teacher/blob/main/assets/bilder/kamera.png");
+  background-image: url("https://github.com/LordusLeon/bbzw-m291-teacher/blob/main/assets/bilder/kamera.png?raw=true");
   background-size: cover;
 }
 
