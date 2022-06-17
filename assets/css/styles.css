@@ -374,7 +374,19 @@ header p{
 }
 
 /* Formular */
+.formular{
+   margin: 70px 25% 70px 25%;
+}
 
+.bestellformular-inhalt h2{
+    padding-bottom: 20px;
+}
+
+.bestellformular-inhalt p{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
 
 .eingabefelder input{
     margin-bottom: 10px;
@@ -386,15 +398,6 @@ input{
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
 }
 
-button{
-color: white;
-background-color:rgb(00, 00, 00);
-border: none;
-padding: 0.5rem 1rem 0.5rem 1rem;
-border-radius: 5px;
-margin-top: 1rem;
-cursor: pointer;
-}
 
 button:hover{
     background-color: rgb(00, 00, 00);
