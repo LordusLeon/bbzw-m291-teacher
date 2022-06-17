@@ -9,9 +9,9 @@ const databaseClient = {
   data: {
     url: "https://database-teacher-onlineshop.herokuapp.com/sql",
     // ! Ändern Sie group (al1, al2, al3, b1, ...)
-    group: "teacher",
+    group: "al2",
     // ! Ändern Sie pw
-    pw: "37b46eb1",
+    pw: "21e44da8",
     sql: ""
   },
 
