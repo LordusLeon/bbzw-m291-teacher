@@ -374,19 +374,7 @@ header p{
 }
 
 /* Formular */
-.formular{
-    margin: 00 00 00 00;
-}
 
-.bestellformular-inhalt h2{
-    padding-bottom: 20px;
-}
-
-.bestellformular-inhalt p{
-    font-weight: bold;
-    font-size: 15px;
-    padding-bottom: 10px;
-}
 
 .eingabefelder input{
     margin-bottom: 10px;
