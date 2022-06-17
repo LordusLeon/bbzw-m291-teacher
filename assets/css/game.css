@@ -19,7 +19,7 @@ h2{
 
 header{
     background-image: url(../bilder/titelbild2.jpg);
-    color: white;
+    color: black;
     text-align: center;
     background-size: cover;
     height: 300px;
@@ -46,7 +46,7 @@ header p{
 .navigation-liste a{
     text-decoration: none;
     text-align: right;
-    color: white;
+    color: black;
     font-family: 'Passion One', cursive;
 }
 
