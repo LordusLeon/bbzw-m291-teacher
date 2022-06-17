@@ -348,7 +348,7 @@ button:hover{
   }
   
   
-  #dino {
+  #kamera {
     height: 75px;
     width: 75px;
     top: 225px;
@@ -357,11 +357,11 @@ button:hover{
     background-size: cover;
   }
   
-  .dino-dies {
+  .kamera-dies {
     background-color: red;
   }
   
-  #rock {
+  #hammer {
     width: 50px;
     height: 50px;
     position: relative;
@@ -369,10 +369,10 @@ button:hover{
     left: 550px;
     background-image: url("https://github.com/LordusLeon/bbzw-m291-teacher/blob/main/assets/bilder/hammer.png?raw=true");
     background-size: cover;
-    animation: rock 1.33s infinite;
+    animation: hammer 1.33s infinite;
   }
   
-  @keyframes rock {
+  @keyframes hammer {
     0% {
       left: 550px;
     }
@@ -406,7 +406,7 @@ button:hover{
   
   
   
-  #background {
+  #hintergrund {
     position: absolute;
     width: 600px;
     height: 300px;
@@ -442,7 +442,7 @@ button:hover{
 }
 
 
-#dino {
+#kamera {
   height: 75px;
   width: 75px;
   top: 225px;
@@ -451,11 +451,11 @@ button:hover{
   background-size: cover;
 }
 
-.dino-dies {
+.kamera-dies {
   background-color: red;
 }
 
-#rock {
+#hammer {
   width: 50px;
   height: 50px;
   position: relative;
@@ -465,11 +465,11 @@ button:hover{
   background-size: cover;
 }
 
-.rock-animation {
-  animation: rock 1.33s infinite;
+.hammer-animation {
+  animation: hammer 1.33s infinite;
 }
 
-@keyframes rock {
+@keyframes hammer {
   0% {
     left: 550px;
   }
@@ -503,7 +503,7 @@ button:hover{
 
 
 
-#background {
+#hintergrund {
   position: absolute;
   width: 600px;
   height: 300px;
