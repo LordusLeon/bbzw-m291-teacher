@@ -20,17 +20,38 @@
   </nav>
   <p>Game</p>
   </header>
+    
+<div class="content content-game">
 
-        
-      <div id="game">
-      <div id="background"></div>
-      <div id="dino"></div>
-      <div id="rock"></div>
+    <div class="gameRow gameInfo">
+      Weichen Sie den Hindernissen aus.
+      Klicken Sie, um zu springen.
     </div>
-    <div id="score">0</div>
-    <div class="highscore">
-      Highscore <span id="highscore-value">0</span>
+
+    <div id="game">
+      <div class="startScreen" id="startScreen" style="display: block;">
+        <div class="startScreenText">
+          Klicken Sie, um das Spiel zu starten.
+        </div>
+      </div>
+
+      <div id="background" class=""></div>
+      <div id="dino" class=""></div>
+      <div id="rock" class="" style=""></div>
     </div>
+
+    <div class="gameRow score" id="score">25</div>
+    <div class="gameRow highscore">
+      Highscore <span id="highscore-value">25</span>
+    </div>
+
+    <div class="gameRow gameOver" id="gameOver" style="display: none;">
+      Glückwunsch, Sie haben einen neuen Highscore erzielt!<br>
+      Besuchen Sie unseren <a href="./shop.html">Shop</a> und lösen Sie ihren Gewinn ein.
+    </div>
+
+
+  </div>
 
     <script src="assets/js/game.js"></script> 
       
