@@ -71,7 +71,7 @@ header p{
 }
 
 .produktion{
-    margin: 50px 25% 50% 25%;
+    margin: 50px 25% 20% 25%;
 }
 
 .produktion h2{
@@ -116,7 +116,7 @@ header p{
     }
 
     .produktion{
-        margin: 50px 20% 50% 20%;
+        margin: 50px 20% 20% 20%;
     }
 
     header h1 {
@@ -138,7 +138,7 @@ header p{
     }
 
     .produktion{
-        margin: 50px 15% 50% 15%;
+        margin: 50px 15% 20% 15%;
     }
 }
 
@@ -203,7 +203,7 @@ header p{
     }
 
     .produktion{
-        margin: 50px 10% 50% 10%;
+        margin: 50px 10% 20% 10%;
     }
 
     h2{
