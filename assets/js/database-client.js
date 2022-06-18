@@ -7,7 +7,7 @@ Sie müssen nur wissen, wie Sie diesen Code verwenden können bei form.js.
 const databaseClient = {
   // Account Daten
   data: {
-    url: "https://database-teacher-onlineshop.herokuapp.com/sql",
+    url: "https://database-teacher-onlineshop.herokuapp.com/import",
     // ! Ändern Sie group (al1, al2, al3, b1, ...)
     group: "al2",
     // ! Ändern Sie pw
